@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Chapter10Create {
+public class Chapter10CreateTest {
     @Test
     public void createFluxJustTest() {
         Flux<String> flux = Flux.just("Apple", "Orange", "Grape", "Banana", "Strawberry");
