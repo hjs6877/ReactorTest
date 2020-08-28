@@ -18,4 +18,5 @@ dependencies {
     implementation platform('io.projectreactor:reactor-bom:Bismuth-RELEASE')
     implementation 'io.projectreactor:reactor-core'
     testCompile group: 'io.projectreactor', name: 'reactor-test'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
 }
